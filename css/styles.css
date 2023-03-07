@@ -59,6 +59,7 @@ img {
     font-size: 3.2em;
     color: darkred;
     cursor: pointer;
+    text-shadow: 4px 4px 7px black;
 }
 /* PORTADA */
 
@@ -94,20 +95,44 @@ img {
     transition: all 1s;
 }
 
-.inicio div img:hover {
+.inicio div img:hover{
     width: 32vh;
     height: 32vh;
     cursor: pointer;
 }
 
-.inicio div h1:hover{
+.inicio div img:hover{
+    width: 32vh;
+    height: 32vh;
+    cursor: pointer;
+}
+
+.inicio .gryffindor h1:hover{
     font-size: 2.5em;
     color:darkred;
     cursor: pointer;
 }
 
+.inicio .slytherin h1:hover{
+    font-size: 2.5em;
+    color:darkgreen;
+    cursor: pointer;
+}
+
+.inicio .hufflepuff h1:hover{
+    font-size: 2.5em;
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+
+.inicio .ravenclaw h1:hover{
+    font-size: 2.5em;
+    color: darkblue;
+    cursor: pointer;
+}
+
 .started {
-   transform: translateY(-100vh);
+   transform: translateY(-120vh);
    transition: all 8s;
 }
 /* SELECCION DE CASA */
